@@ -1,0 +1,236 @@
+/* // extra-Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 320px) and (max-width: 575px) { 
+    .footer h6{
+        margin-left: 90px;
+        font-size: 14px !important;
+    }
+    .products {
+        text-align: center !important;
+        width: 153px;
+        border: 2px solid #fc7a35;
+        height: 400px;
+    }
+    .support_part .support img{
+        width: 60px;
+    }
+    .support_part .support h4{
+        font-size: 14px;
+    }
+    .products a h5{
+        padding: 10px 0px;
+        border-top: 1px solid #e6e6e6;
+        width: 100%;
+        color: #fa8729;
+        cursor: pointer;
+    }
+    .products a h5:hover{
+        color: #af4c18;
+    }
+    .mt_my{
+        margin-top: 10px;
+    }
+    #fb{
+        z-index: 1;
+        height: 123.9px;
+    }
+    .facebook img {
+        z-index: 2;
+        width: 27px;
+        height: 124px;
+        right: -14px;
+    }
+    .bottom_menu{
+        overflow: hidden;
+    }
+    .bottom_menu h5{
+        font-size: 14px;
+    }
+    .bottom_menu ul li{
+        font-size: 12px;
+    }
+
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767px)  {
+    .navbar {
+        text-align: center !important;
+    }
+    .sm_form .form-control {
+        width: 451px;
+    }
+    .facebook img {
+        z-index: 2;
+        width: 32px;
+        height: 37%;
+    }
+    #fb {
+        z-index: 2;
+        width: 290px;
+        height: 109.9px;
+    }
+    .comment .comment_box {
+        height: 43px;
+        width: 225px !important;
+        top: 60px;
+    }
+    .like_share span{
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    .banner_part .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+    .banner_part .carousel-control-next i, .carousel-control-prev i {
+        padding: 7px 9px;
+        font-size: 14px;
+    }
+    .col-sm-6 {
+        margin-top: 20px;
+    }
+    .support_part .support img{
+        width: 60px;
+    }
+    .support_part .support h4{
+        font-size: 14px;
+    }
+    .footer h6 {
+        margin-left: 150px;
+    }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px)  { 
+    .menu_part {
+        padding: 10px 0px;
+    }
+    .menu_part ul li {
+        border-left: none;
+        font-size: 14px;
+    } 
+    #fb{
+        z-index: 1;
+        height: 123.9px;
+    }
+    .facebook img {
+        z-index: 2;
+        width: 37px;
+    }
+    .banner_part .carousel-control-next i, .carousel-control-prev i {
+        padding: 7px 10px;
+        font-size: 18px;
+    }
+    .comment .comment_box {
+        top: 72px !important;
+    }
+    .sec_menu nav .container{
+        border: 1px solid #af4c18;
+        padding: 0;
+    }
+    .sec_menu ul li{
+        padding: 0px 12px;
+        font-size: 12px;
+        padding: 0;
+    }
+    .sm_form .form-control {
+        font-size: 12px;
+        width: 150px;
+    }
+    .sm_form .btn i{
+        color: #ffffff;
+        font-size: 15px;
+        padding: 0;
+    }
+    .banner_part .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+    .products {
+        margin-top: 20px;
+    }
+    .support_part .support img{
+        width: 57px;
+    }
+    .culpt h5{
+        font-size: 15px;
+    }
+    .footer h6 {
+        margin-left: 240px;
+    }
+
+
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199px)  { 
+    .products {
+        margin-top: 20px;
+    }
+    .support_part .support img{
+        width: 65px;
+    }
+    .sec_menu nav .container{
+        border: 1px solid #af4c18;
+        padding: 10px 20px;
+        padding-right: 0;
+    }
+    .sec_menu ul li{
+        padding: 0px 12px;
+        font-size: 14px;
+        padding: 0;
+    }
+    .sm_form .form-control {
+        font-size: 15px;
+        width: 290px;
+    }
+    .sm_form .btn i{
+        color: #ffffff;
+        font-size: 17px;
+        padding: 0;
+    }
+    #fb{
+        z-index: 1;
+        height: 123.9px;
+    }
+    .facebook img {
+        z-index: 2;
+        width: 30px;
+        height: 123px !important;
+    }
+    .comment .comment_box {
+        top: 72px !important;
+    }
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) { 
+    .our_product .offset-md-1{
+        margin: 0;
+    }
+    #fb{
+        z-index: 1;
+    }
+    .facebook img {
+        z-index: 2;
+    }
+    
+    
+ }
+
+
+
+
+
+
+
+
+

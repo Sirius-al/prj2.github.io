@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0 !important;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none !important;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1,h2,h3,h4,h5,h6,p,a,img,span,aside,hgroup,ul,ol,li,form,label,input,nav,.navbar,.navbar-brand,i{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+
+
+
+
+
+                                        /* menu_part starts */
+.menu_part{
+    padding: 35px 0px;
+}
+.menu_part ul li,li a{
+    font-weight: 400;
+    color: #ffffff !important;
+    transition: .3s;
+}
+.menu_part ul li{
+    border-left: 2px solid #af4c18;
+    font-size: 16px;
+}
+ald{
+    color: #fa8729;
+}
+.menu_part ul li:first-child{
+    border: none;
+}
+.menu_part ul li,li a:hover{
+    color: #fa8729 !important;
+}
+.menu_part ul li:last-child{
+    color: #ffffff !important;
+}
+/* menu_part ends */
+
+                                            /* sec_menu starts */
+.sec_menu{
+    
+}
+.sm_form input{
+    background: none;
+    border: none;
+}
+.sm_form input:focus{
+    background: none;
+    outline: none !important;
+}
+.sm_form .btn i{
+    color: #ffffff;
+    font-size: 20px;
+}
+.sm_form .btn:hover i{
+    opacity: .6;
+}
+.sec_menu nav .container{
+    border: 1px solid #af4c18;
+    padding: 10px 20px;
+    padding-right: 0;
+}
+.sec_menu ul li{
+    padding: 0px 12px;
+    font-size: 15px;
+    padding-top: 5px;
+    font-weight: 700 !important;
+}
+.sm_form .form-control {
+	height: calc(1.5em + 0.75rem + 5px);
+	padding: .375rem .75rem;
+	font-size: 17px;
+    color: #8B9299;
+}
+/* sec_menu ends */
+
+                                            /* banner_part starts */
+.banner_part{
+    padding: 25px 0px 40px;
+    position: relative;
+}
+.banner_part .carousel-indicators {
+	bottom: -40px;
+}
+.banner_part .carousel-item{
+    box-shadow: 10px 10px 20px rgb(54, 54, 54) !important;
+}
+.banner_part .carousel-indicators li {
+	width: 15px;
+	height: 15px;
+    opacity: .7;
+    border-radius: 50%;
+    border: 1px solid #fa8729;
+    background: none;
+    transition: .2s;
+}
+.banner_part .carousel-indicators li.active{
+    background: #fa8729;
+    border: 1px solid #fa8729;
+    opacity: 1;
+}
+.banner_part .carousel-control-next{
+    right: 0px;
+    width: 10%;
+}
+.banner_part .carousel-control-prev{
+    left: 0px;
+    width: 10%;
+}
+.banner_part .carousel-control-next i, .carousel-control-prev i{
+    padding: 10px 13px;
+    border: 1px solid #ffffff !important;
+    border-radius: 50%;
+    font-size: 20px;
+}
+#fb{
+    position: absolute;
+    right: 0;
+    width: 350px;
+    height: 133.9px;
+    background: #c86531;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: none;
+    transition:all .3s ease-in-out; 
+}
+#fb i{
+    color: #ffffff !important;
+}
+#fb a i{
+    color: #002952 !important;
+}
+#fb a i:hover{
+    opacity: .7;
+}
+#fb .fb_frnt{
+    position: absolute;
+    left: -40px;
+    top: 0;
+    cursor: pointer;
+}
+.like_share span{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.comment .comment_box{
+    background: none;
+    height: 50px;
+    width: 280px !important;
+    position: absolute;
+    border: none;
+    outline: none;
+    left: 30px;
+}
+.facebook img{
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+
+}
+/* banner_part ends */
+
+/* our_product starts */
+.our_product{
+    padding: 40px 0px;
+}
+/* common heading part starts */
+.c_head{
+
+}
+.c_head h3{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 26px;
+    border-bottom: 3px solid #fa8729;
+    padding-bottom: 11.3px !important;
+}
+.c_head h5:hover{
+    color: #fa8729 !important;
+}
+.c_head{
+    border-bottom: 2px solid #af4c18;
+    width: 100% !important;
+    height: 45px;
+    bottom: 0;
+    padding-left: 0 !important;
+    margin-bottom: 25px;
+}
+/* common heading part ends */
+.products{
+    text-align: center !important;
+    width: 260px;
+    border: 2px solid #fc7a35
+}
+.products img{
+    padding: 40px 0px;
+}
+.products h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+.products p{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0;;
+}
+.products a h5{
+    padding: 15px 0px;
+    border-top: 1px solid #e6e6e6;
+    width: 100%;
+    color: #fa8729;
+    cursor: pointer;
+}
+.products a h5:hover{
+    color: #af4c18;
+}
+.products .office_table{
+    padding: 43px 0px;
+}
+.products .bed{
+    padding: 69px 0px;
+}
+.products .rocking{
+    padding: 23.8px 0px;
+}
+
+
+/* our_product ends */
+
+                            /* new_arrival starts */
+.new_arrival{
+    
+}
+.new_arrival .BED_2{
+    padding: 49.8px 0px;
+}
+.new_arrival .rocking_chair_2{
+    padding: 23.8px 0px;
+}
+.new_arrival .cup_board{
+    padding: 22.2px 0px;
+}
+.new_arrival .conferance_table{
+    padding: 57.8px 0px;
+}
+/* new_arrival ends */
+
+/* support_part starts */
+.support_part{
+    padding: 30px 0px 60px;
+}
+.support_part .support{
+    background: url(../images/pr_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 0px;
+    text-align: center;
+}
+.support_part .support h4{
+    font-size: 20px;
+    color: #4d200d;
+    font-weight: 700;
+}
+.support_part .support img:hover{
+    background: #4d200d5b !important;
+    border-radius: 50%;
+}
+
+/* support_part ends */
+
+/* bottom_menu starts */
+.bottom_menu{
+    
+}
+.bottom_menu .container{
+    background: rgba(0, 0, 0, 0.746);
+    padding: 40px 20px 70px;
+}
+.bottom_menu ul li a{
+    color: #d3d3d3 !important;
+    text-transform: capitalize;
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 600;
+}
+.bottom_menu ul li a:hover{
+    opacity: .7;
+}
+.s_icon{
+    text-align: center;
+}
+.s_icon li{
+    float: left;
+    padding: 0px 15px;
+}
+.s_icon li a{
+    font-size: 20px !important
+}
+/* bottom_menu ends */
+footer .container{
+    background: #f5893f;
+    padding: 20px 0px;
+}
+.footer h6{
+    margin-left: 420px;
+}
+sirius_nad{
+    font-weight: 700;
+    font-style: italic !important;
+    color: #862c02
+}
+/**************************************************************************************
+***************************************************************************************
+****************************    THE ENDING :)   ***************************************
+***************************************************************************************
+***************************************************************************************/
